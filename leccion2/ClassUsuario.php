@@ -31,7 +31,9 @@
             echo "Clave: ".$this->strClave."<br />";
         }
 
-
+        public function setCambiarClave(string $pass){
+            $this->strClave = $pass;
+        }
 
 
 
